@@ -1,4 +1,4 @@
-# README - Arquitetura de Microserviços para Sistema de Economia Colaborativa
+# README - Arquitetura de Microserviços para Sistema de Economia Colaborativa (SwApp)
 
 ## Descrição Geral
 Este projeto é uma plataforma de economia colaborativa que permite aos usuários trocarem habilidades e serviços sem transações financeiras. A solução é baseada em uma arquitetura de microserviços para garantir escalabilidade, modularidade e manutenção simplificada. Cada microserviço é projetado para gerenciar funcionalidades específicas e opera de forma independente, comunicando-se por meio de APIs.
