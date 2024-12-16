@@ -1,0 +1,14 @@
+INSERT into users (
+    id, first_name, last_name, cpf, email, password, state, city, address, street, number, complement, 
+    neighborhood, zip_code, contact, gender, birth_date
+) VALUES
+(1, 'Ana', 'Silva', '12345678900', 'ana.silva@email.com', '123456Senha', 'SP', 'São Paulo', 'Av. Paulista, 123', 
+ 'Avenida Paulista', '123', 'Ap 45B', 'Bela Vista', '01311300', '(11)98765-4321', 'Feminino', '1998-05-12'),
+
+(2, 'Carlos', 'Pereira', '98765432100', 'carlos.pereira@email.com', 'SenhaForte2024', 'RJ', 'Rio de Janeiro', 
+ 'Rua do Ouvidor, 456', 'Rua do Ouvidor', '456', 'Bloco 2', 'Centro', '20040030', '(21)99988-7766', 
+ 'Masculino', '1995-09-23'),
+
+(3, 'Mariana', 'Oliveira', '56789012345', 'mariana.oliveira@email.com', 'Mariana1234', 'MG', 'Belo Horizonte', 
+ 'Av. Afonso Pena, 789', 'Avenida Afonso Pena', '789', NULL, 'Centro', '30130150', '(31)91234-5678', 'Feminino', 
+ '2000-02-15');
